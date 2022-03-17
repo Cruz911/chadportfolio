@@ -3,64 +3,56 @@ module.exports = {
     // Site URL for when it goes live
     siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
     // Your Name
-    name: 'Ryan Fitzgerald',
+    name: 'Joel Chadambuka',
     // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
+    title: `Joel Chadambuka | Full-Stack Developer`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `Welcome to my portfolio. I am a full stack web developer`,
     // Optional: Twitter account handle
-    author: `@rfitzio`,
+    author: `@chad_jnr`,
     // Optional: Github account URL
-    github: `https://github.com/ryanfitzgerald`,
+    github: `https://github.com/cruz911`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    linkedin: `https://www.linkedin.com/in/joel-chadambuka-110a681a7/`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `
+    I am a recently graduated Software Engineering student who is looking to make their first steps to advance their career. I am interested in web development and data science. I am a good problem solver and willing to learn to expand my knowledge`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
         name: 'Devfolio',
         description:
           'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        link: 'https://github.com/Cruz911/devfolio',
       },
+      // {
+      //   name: 'ChromeExtensionKit',
+      //   description:
+      //     'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
+      //   link: 'https://chromeextensionkit.com/?ref=devfolio',
+      // },
       {
-        name: 'ChromeExtensionKit',
+        name: 'Chat Application',
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
-      },
-      {
-        name: 'Another Cool Project',
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'A chat application using websockets in node.js',
+        link: 'https://github.com/Cruz911/Chat-Application',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
+        name: 'Hitrac',
+        description: 'Full-Stack Developer Intern, September 2019 - March 2020',
         link: 'https://github.com/RyanFitzgerald/devfolio',
       },
-      {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
+     
     ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'JavaScript (ES6+), Node.js, Express.js, React, Python, Pandas',
       },
       {
         name: 'Databases',
@@ -69,7 +61,7 @@ module.exports = {
       {
         name: 'Other',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          'Microservices, API design, Agile / Scrum',
       },
     ],
   },
